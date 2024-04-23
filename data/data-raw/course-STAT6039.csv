@@ -1,0 +1,2 @@
+course_code,course_name,requisites,incompatible,schedule
+STAT6039,Principles of Mathematical Statistics,STAT7055,STAT2001;STAT2013;STAT6013,NA

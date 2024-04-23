@@ -1,0 +1,2 @@
+course_code,course_name,requisites,incompatible,schedule
+STAT6038,Regression Modelling,STAT7055;STAT1003;STAT1008,STAT2008;STAT2014;STAT4038;STAT6014;STAT7001,NA

@@ -1,0 +1,2 @@
+Code,Name,Prequisite,Corequisite,Cotaught,Incompatible
+STAT6016,Introduction to Bayesian Data Analysis,STAT6039/STAT6013;STAT6038/STAT6014/STAT7001,,STAT3016,STAT3016;STAT4116

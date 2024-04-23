@@ -1,0 +1,2 @@
+course_code,course_name,requisites,incompatible,schedule
+STAT6030,Generalised Linear Modelling,STAT6038;STAT6014;STAT7001,STAT3015;STAT4030,NA

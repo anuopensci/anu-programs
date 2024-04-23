@@ -1,0 +1,2 @@
+course_code,course_name,requisites,incompatible,schedule
+COMP7240,Introduction to Database Concepts,NA,COMP2400;COMP6240,NA

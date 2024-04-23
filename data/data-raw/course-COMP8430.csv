@@ -1,0 +1,2 @@
+course_code,course_name,requisites,incompatible,schedule
+COMP8430,Data Wrangling,COMP7230;COMP6730;COMP6710;COMP7240;COMP6240,COMP3430,Second Semester 2024

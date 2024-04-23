@@ -1,0 +1,2 @@
+course_code,course_name,requisites,incompatible,schedule
+COMP7230,Introduction to Programming for Data Scientists,NA,COMP1730;COMP6730;COMP1040,NA
