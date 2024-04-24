@@ -1,0 +1,2 @@
+course_code,course_name,requisites,incompatible,schedule
+COMP6670,Introduction to Machine Learning,COMP6710;COMP6730;COMP1110;COMP1140,COMP3670,Second Semester 2024

@@ -15,6 +15,12 @@ targets::tar_source()
 targets::tar_load_everything()
 ```
 
+```{css}
+.cell-output-display {
+  border: 1px solid black;
+}
+```
+
 The code for this document is avalable at <https://github.com/anuopensci/anu-programs>.
 
 ::: callout-note
@@ -33,18 +39,24 @@ The code for this document is avalable at <https://github.com/anuopensci/anu-pro
 
 :::
 
-## Master of Statistics
-
-```{css}
-.cell-output-display {
-  border: 1px solid black;
-}
-```
+## [Master of Statistics](https://programsandcourses.anu.edu.au/2024/program/MSTAT)
 
 
 ```{r}
-#| class-output: ba
-#| out-extra: "test"
 plot_network(mstat_courses, mstat_required) 
+```
+
+## [Master of Statistical Data Analysis](https://programsandcourses.anu.edu.au/2024/program/MSDA)
+
+```{r}
+plot_network(msda_courses, msda_required) 
+```
+
+
+## [Master of Applied Data Analytics](https://programsandcourses.anu.edu.au/program/madan)
+
+
+```{r}
+plot_network(madan_courses, madan_required) 
 ```
 

@@ -1,0 +1,2 @@
+course_code,course_name,requisites,incompatible,schedule
+STAT8140,Statistical Learning,STAT7039;STAT6039;STAT6013;STAT7038;STAT6038;STAT6014,STAT3040;STAT4040,First Semester 2024

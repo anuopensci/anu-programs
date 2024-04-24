@@ -1,0 +1,2 @@
+course_code,course_name,requisites,incompatible,schedule
+COMP8420,"Neural Networks, Deep Learning and Bio-inspired Computing",COMP6670;COMP3670;COMP6710;COMP6730;COMP7230,COMP4660;COMP8920,NA

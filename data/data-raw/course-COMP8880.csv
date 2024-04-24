@@ -1,0 +1,2 @@
+course_code,course_name,requisites,incompatible,schedule
+COMP8880,Computational Methods for Network Science,COMP6670;COMP6710;COMP6730;COMP7230;COMP8410;COMP8910;STAT6039,COMP4880;COMP8980,First Semester 2024

@@ -1,0 +1,2 @@
+course_code,course_name,requisites,incompatible,schedule
+COMP6420,"Introduction to Data Management, Analysis and Security",COMP6710;COMP1110;COMP1140,COMP2420,NA

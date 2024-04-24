@@ -5,6 +5,7 @@ library(glue)
 
 program <- "MADAN"
 program <- "MSTAT"
+program <- "MSDA"
 url <- glue("https://programsandcourses.anu.edu.au/program/{program}")
 html_page <- read_html(url)
 
@@ -14,6 +15,12 @@ title <- html_page |>
   str_remove_all("\\r\\n") |> 
   str_trim()
 title
+
+html_page |> 
+  html_element("#study") |> 
+  html_elements(".ql-indent-1") |> 
+  html_elements("a") |> 
+  html_text()
 
 studytable <- html_page |> 
   html_element(".table-container") |> 

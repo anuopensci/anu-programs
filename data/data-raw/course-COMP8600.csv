@@ -1,0 +1,2 @@
+course_code,course_name,requisites,incompatible,schedule
+COMP8600,Statistical Machine Learning,COMP6670;COMP3670;COMP6710;COMP6730;COMP7230;COMP1110;COMP1730;COMP8410;COMP8910;COMP3425;STAT6039,COMP4670;COMP8960,First Semester 2024
