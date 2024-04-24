@@ -1,5 +1,6 @@
 ---
 title: ANU Programs
+date-modified: today
 format: 
   html: default
 execute:
@@ -14,19 +15,21 @@ targets::tar_source()
 targets::tar_load_everything()
 ```
 
+The code for this document is avalable at <https://github.com/anuopensci/anu-programs>.
+
 ::: callout-note
 
 ## How to read the interactive network graph
 
-- The node represents a course as indicated by the 4 letter alpha code followed by 4 digits
-- The edges show the prerequisite required for the course.
-- The color of nodes are such that:
+- The **node** represents a course as indicated by the 4 letter alpha code followed by 4 digits
+- The **edges** show the prerequisite required for the course.
+- The **color** of nodes are such that:
   - blue are courses listed in the study options 
   - yellow are required but not listed in the study options
   - red are courses that don't seem to exist anymore
-- You can zoom in to see more information.
-- Clicking on the node takes you to the ANU course homepage.
-- Hovering over the node displays the course name.
+- You can **zoom** in to see more information.
+- **Clicking** on the node takes you to the ANU course homepage.
+- **Hovering** over the node displays the course name.
 
 :::
 
