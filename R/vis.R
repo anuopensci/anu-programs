@@ -38,10 +38,8 @@ plot_network <- function(courses, required = NULL) {
            to = match(course_code, course_nodes$label)) |> 
     select(from, to) |> 
     filter(!is.na(from)) |> 
+    distinct() |> 
     mutate(arrows = "to")
-  
-  #browser()
-  
   
   visNetwork(course_nodes, course_edges, width = "100%", height = "500px") %>% 
     visEvents(selectNode = 
@@ -52,5 +50,6 @@ plot_network <- function(courses, required = NULL) {
    }") |> 
     visOptions(selectedBy = list(variable = "schedule", multiple = TRUE),
                nodesIdSelection = TRUE) |> 
-    visLayout(improvedLayout = TRUE, clusterThreshold = 40)
+    visLayout(improvedLayout = TRUE, clusterThreshold = 40) |> 
+    visInteraction(navigationButtons = TRUE)
 }
