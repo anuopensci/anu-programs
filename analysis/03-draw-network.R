@@ -1,7 +1,6 @@
 library(tidyverse)
 library(visNetwork)
-source(here::here("R/course.R"))
-
+targets::tar_source()
 
 # get current courses and required resquisites ----------------------------
 
@@ -23,22 +22,26 @@ course_reqs_df <- map_dfr(course_reqs, course_info)
 
 # combine the reqs + mains ------------------------------------------------
 
-course_df <- bind_rows(courses, 
-                       course_reqs_df) |> 
+course_df <- bind_rows(mutate(courses, type = "main"), 
+                       mutate(course_reqs_df, main = "req")) |> 
   separate_longer_delim(requisites, ";") |> 
   #mutate(schedule = map(schedule, ~str_split(., ";"))) |> 
   select(-incompatible)
 
 course_nodes <- course_df |> 
-  select(label = course_code, title = course_name, schedule) |> 
+  select(label = course_code, title = course_name, schedule, type) |> 
   mutate(id = 1:n(), .before = label) |> 
   mutate(schedule = str_replace_all(schedule, ";", ","),
          schedule = ifelse(is.na(schedule), "Missing", schedule)) |> 
   mutate(shape = "box",
          shadow = TRUE,
-         color.background = case_when(str_detect(label, "COMP") ~ "dodgerblue",
-                                      str_detect(label, "STAT") ~ "orange",
-                                      TRUE ~ "lightpink"),
+         #color.background = case_when(str_detect(label, "COMP") ~ "dodgerblue",
+        #                              str_detect(label, "STAT") ~ "orange",
+         #                             TRUE ~ "lightpink"),
+         color.background = case_match(type,
+                                       "main" ~ "dodgerblue",
+                                       "req" ~ "orange",
+                                       .default = "lightpink"),
          color.border = "black",
          color.highlight = "yellow",
          url = paste0("https://programsandcourses.anu.edu.au/course/", label))

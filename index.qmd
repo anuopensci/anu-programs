@@ -1,0 +1,22 @@
+---
+title: ANU Programs
+format: 
+  html: default
+execute:
+  echo: false
+  warning: false
+---
+
+```{r setup}
+library(tidyverse)
+library(visNetwork)
+targets::tar_source()
+targets::tar_load_everything()
+```
+
+## Master of Statistics
+
+```{r}
+plot_network(mstat_courses, mstat_required) 
+```
+

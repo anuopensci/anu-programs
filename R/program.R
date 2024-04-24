@@ -14,12 +14,13 @@ program_course_list <- function(program) {
     html_table() 
   
   res <- studytable |> 
-    mutate(across(everything(), ~str_replace_all(., "\\r\\n.+", ""))) |> 
+    mutate(across(-X1, ~str_extract_all(., "[A-Z]{4}[0-9]{4}"))) |> 
+    mutate(X1 = str_replace_all(X1, "\\r\\n.+", "")) |> 
     rename(year = X1) |> 
     pivot_longer(cols = -year, names_to = "delete", values_to = "course_code") |> 
     select(-delete) |> 
-    filter(course_code != "", 
-           str_detect(course_code, "[A-Z]{4}[0-9]{4}")) |> 
+    unnest_longer(course_code) |> 
+    filter(str_detect(course_code, "^[A-Z]{4}[0-9]{4}$")) |> 
     mutate(program_code = program,
            program_name = title, 
            .before = year)

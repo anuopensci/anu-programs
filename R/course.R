@@ -56,3 +56,27 @@ course_info <- function(course, overwrite = FALSE) {
   
   res
 }
+
+course_reqs <- function(courses = NULL, nlevel = Inf) {
+  if(is.null(courses)) {
+    # get all if NULL
+    fns <- dir("data/data-raw", pattern = "course-", full.names = TRUE)
+    courses <- map_dfr(fns, read_csv)
+  }
+  
+  course_reqs <- courses |> 
+    select(-incompatible, -schedule) |> 
+    separate_longer_delim(requisites, ";") |> 
+    filter(!requisites %in% courses$course_code) |> 
+    filter(!is.na(requisites)) |> 
+    pull(requisites) |> 
+    unique()
+  
+  course_reqs_df <- map_dfr(course_reqs, course_info)
+  if(nlevel != 1 & nrow(course_reqs_df)) {
+    course_reqs_df <- bind_rows(course_reqs_df,
+                                course_reqs(bind_rows(courses, course_reqs_df), 
+                                            nlevel - 1))
+  }
+  course_reqs_df
+}

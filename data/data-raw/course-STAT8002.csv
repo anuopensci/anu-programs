@@ -1,0 +1,2 @@
+course_code,course_name,requisites,incompatible,schedule
+STAT8002,Applied Time Series Analysis,STAT6039;STAT6013;STAT6038;STAT6014;STAT7001;EMET7001,STAT4102,First Semester 2024
