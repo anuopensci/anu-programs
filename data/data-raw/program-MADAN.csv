@@ -1,11 +1,39 @@
-program_code,program_name,year,course_code
-MADAN,Master of Applied Data Analytics,Year 1,COMP6730
-MADAN,Master of Applied Data Analytics,Year 1,COMP6240
-MADAN,Master of Applied Data Analytics,Year 1,STAT7055
-MADAN,Master of Applied Data Analytics,Year 1,SOCR8202
-MADAN,Master of Applied Data Analytics,Year 1,COMP8430
-MADAN,Master of Applied Data Analytics,Year 1,STAT7038
-MADAN,Master of Applied Data Analytics,Year 1,SOCR8201
-MADAN,Master of Applied Data Analytics,Year 1,STAT6026
-MADAN,Master of Applied Data Analytics,Year 2,COMP8410
-MADAN,Master of Applied Data Analytics,Year 2,STAT8130
+program_code,program_name,year,course_code,type
+MADAN,Master of Applied Data Analytics,Year 1,COMP6730,studytable
+MADAN,Master of Applied Data Analytics,Year 1,COMP6240,studytable
+MADAN,Master of Applied Data Analytics,Year 1,STAT7055,studytable
+MADAN,Master of Applied Data Analytics,Year 1,SOCR8202,studytable
+MADAN,Master of Applied Data Analytics,Year 1,COMP8430,studytable
+MADAN,Master of Applied Data Analytics,Year 1,STAT7038,studytable
+MADAN,Master of Applied Data Analytics,Year 1,SOCR8201,studytable
+MADAN,Master of Applied Data Analytics,Year 1,STAT6026,studytable
+MADAN,Master of Applied Data Analytics,Year 2,COMP8410,studytable
+MADAN,Master of Applied Data Analytics,Year 2,STAT8130,studytable
+MADAN,Master of Applied Data Analytics,NA,COMP8410,listed
+MADAN,Master of Applied Data Analytics,NA,COMP8910,listed
+MADAN,Master of Applied Data Analytics,NA,COMP8430,listed
+MADAN,Master of Applied Data Analytics,NA,COMP8930,listed
+MADAN,Master of Applied Data Analytics,NA,SOCR8201,listed
+MADAN,Master of Applied Data Analytics,NA,SOCR8202,listed
+MADAN,Master of Applied Data Analytics,NA,STAT6038,listed
+MADAN,Master of Applied Data Analytics,NA,STAT6030,listed
+MADAN,Master of Applied Data Analytics,NA,STAT6026,listed
+MADAN,Master of Applied Data Analytics,NA,STAT7055,listed
+MADAN,Master of Applied Data Analytics,NA,COMP6240,listed
+MADAN,Master of Applied Data Analytics,NA,COMP7240,listed
+MADAN,Master of Applied Data Analytics,NA,COMP6730,listed
+MADAN,Master of Applied Data Analytics,NA,COMP7230,listed
+MADAN,Master of Applied Data Analytics,NA,COMP8600,listed
+MADAN,Master of Applied Data Analytics,NA,COMP8880,listed
+MADAN,Master of Applied Data Analytics,NA,COMP6490,listed
+MADAN,Master of Applied Data Analytics,NA,COMP6990,listed
+MADAN,Master of Applied Data Analytics,NA,COMP8420,listed
+MADAN,Master of Applied Data Analytics,NA,COMP8920,listed
+MADAN,Master of Applied Data Analytics,NA,SOCR8082,listed
+MADAN,Master of Applied Data Analytics,NA,SOCR8006,listed
+MADAN,Master of Applied Data Analytics,NA,SOCR8203,listed
+MADAN,Master of Applied Data Analytics,NA,SOCR8204,listed
+MADAN,Master of Applied Data Analytics,NA,STAT6016,listed
+MADAN,Master of Applied Data Analytics,NA,STAT6039,listed
+MADAN,Master of Applied Data Analytics,NA,STAT6040,listed
+MADAN,Master of Applied Data Analytics,NA,STAT8002,listed

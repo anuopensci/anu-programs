@@ -11,6 +11,7 @@ execute:
 ```{r setup}
 library(tidyverse)
 library(visNetwork)
+library(rvest)
 targets::tar_source()
 targets::tar_load_everything()
 ```
@@ -41,12 +42,17 @@ The code for this document is avalable at <https://github.com/anuopensci/anu-pro
 
 ## [Master of Statistics](https://programsandcourses.anu.edu.au/2024/program/MSTAT)
 
+```{r}
+program_study_table("MSTAT") 
+```
 
 ```{r}
 plot_network(mstat_courses, mstat_required) 
 ```
 
 ## [Master of Statistical Data Analysis](https://programsandcourses.anu.edu.au/2024/program/MSDA)
+
+
 
 ```{r}
 plot_network(msda_courses, msda_required) 
@@ -55,8 +61,17 @@ plot_network(msda_courses, msda_required)
 
 ## [Master of Applied Data Analytics](https://programsandcourses.anu.edu.au/program/madan)
 
+```{r}
+program_study_table("MADAN") 
+```
 
 ```{r}
 plot_network(madan_courses, madan_required) 
 ```
 
+## [Bachelor of Applied Data Analytics](https://programsandcourses.anu.edu.au/program/BADAN)
+
+
+## [Bachelor of Finance, Economics and Statistics (Honours)](https://programsandcourses.anu.edu.au/program/AFEST)
+
+## [Bachelor of Statistics](https://programsandcourses.anu.edu.au/program/BSTAT)

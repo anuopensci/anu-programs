@@ -72,7 +72,8 @@ course_reqs <- function(courses = NULL, nlevel = Inf) {
     pull(requisites) |> 
     unique()
   
-  course_reqs_df <- map_dfr(course_reqs, course_info)
+  course_reqs_df <- map_dfr(course_reqs, course_info) |> 
+    mutate(type = "req")
   if(nlevel != 1 & nrow(course_reqs_df)) {
     course_reqs_df <- bind_rows(course_reqs_df,
                                 course_reqs(bind_rows(courses, course_reqs_df), 

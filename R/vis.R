@@ -3,16 +3,13 @@
 plot_network <- function(courses, required = NULL) {
   if(is.null(required)) {
     course_df <- courses |> 
-      #separate_longer_delim(requisites, ";") |> 
-      select(-incompatible) |> 
-      mutate(type = "main")
+      select(-incompatible)
   } else {
     required_filtered <- required |> 
       filter(!course_code %in% courses$course_code)
     
-    course_df <- bind_rows(mutate(courses, type = "main"), 
-                           mutate(required_filtered, type = "req")) |> 
-      #separate_longer_delim(requisites, ";") |> 
+    course_df <- bind_rows(courses, 
+                           required_filtered) |> 
       select(-incompatible)
   }
   
@@ -24,7 +21,8 @@ plot_network <- function(courses, required = NULL) {
     mutate(shape = "box",
            shadow = TRUE,
            color.background = case_when(title == "The page you are looking for doesn't exist" ~ "red",
-                                        type == "main" ~ "dodgerblue",
+                                        type == "studytable" ~ "dodgerblue",
+                                        type == "listed" ~ "darkblue",
                                         type == "req" ~ "orange",
                                          .default = "lightpink"),
            color.border = "black",

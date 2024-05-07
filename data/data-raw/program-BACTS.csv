@@ -1,21 +1,59 @@
-program_code,program_name,year,course_code
-BACTS,Bachelor of Actuarial Studies,Year 1,ECON1101
-BACTS,Bachelor of Actuarial Studies,Year 1,FINM1001
-BACTS,Bachelor of Actuarial Studies,Year 1,BUSN1001
-BACTS,Bachelor of Actuarial Studies,Year 1,STAT1008
-BACTS,Bachelor of Actuarial Studies,Year 1,ECON1102
-BACTS,Bachelor of Actuarial Studies,Year 1,FINM2001
-BACTS,Bachelor of Actuarial Studies,Year 1,MATH1113
-BACTS,Bachelor of Actuarial Studies,Year 2,STAT2013
-BACTS,Bachelor of Actuarial Studies,Year 2,STAT2014
-BACTS,Bachelor of Actuarial Studies,Year 2,STAT2032
-BACTS,Bachelor of Actuarial Studies,Year 2,FINM2002
-BACTS,Bachelor of Actuarial Studies,Year 2,STAT2005
-BACTS,Bachelor of Actuarial Studies,Year 2,STAT3037
-BACTS,Bachelor of Actuarial Studies,Year 2,FINM2003
-BACTS,Bachelor of Actuarial Studies,Year 3,STAT3057
-BACTS,Bachelor of Actuarial Studies,Year 3,STAT3032
-BACTS,Bachelor of Actuarial Studies,Year 3,FINM3003
-BACTS,Bachelor of Actuarial Studies,Year 3,STAT3058
-BACTS,Bachelor of Actuarial Studies,Year 3,STAT3038
-BACTS,Bachelor of Actuarial Studies,Year 3,ACST3032
+program_code,program_name,year,course_code,type
+BACTS,Bachelor of Actuarial Studies,Year 1,ECON1101,studytable
+BACTS,Bachelor of Actuarial Studies,Year 1,FINM1001,studytable
+BACTS,Bachelor of Actuarial Studies,Year 1,BUSN1001,studytable
+BACTS,Bachelor of Actuarial Studies,Year 1,STAT1008,studytable
+BACTS,Bachelor of Actuarial Studies,Year 1,ECON1102,studytable
+BACTS,Bachelor of Actuarial Studies,Year 1,FINM2001,studytable
+BACTS,Bachelor of Actuarial Studies,Year 1,MATH1113,studytable
+BACTS,Bachelor of Actuarial Studies,Year 2,STAT2013,studytable
+BACTS,Bachelor of Actuarial Studies,Year 2,STAT2014,studytable
+BACTS,Bachelor of Actuarial Studies,Year 2,STAT2032,studytable
+BACTS,Bachelor of Actuarial Studies,Year 2,FINM2002,studytable
+BACTS,Bachelor of Actuarial Studies,Year 2,STAT2005,studytable
+BACTS,Bachelor of Actuarial Studies,Year 2,STAT3037,studytable
+BACTS,Bachelor of Actuarial Studies,Year 2,FINM2003,studytable
+BACTS,Bachelor of Actuarial Studies,Year 3,STAT3057,studytable
+BACTS,Bachelor of Actuarial Studies,Year 3,STAT3032,studytable
+BACTS,Bachelor of Actuarial Studies,Year 3,FINM3003,studytable
+BACTS,Bachelor of Actuarial Studies,Year 3,STAT3058,studytable
+BACTS,Bachelor of Actuarial Studies,Year 3,STAT3038,studytable
+BACTS,Bachelor of Actuarial Studies,Year 3,ACST3032,studytable
+BACTS,Bachelor of Actuarial Studies,NA,ACST3032,listed
+BACTS,Bachelor of Actuarial Studies,NA,BUSN1001,listed
+BACTS,Bachelor of Actuarial Studies,NA,ECON1101,listed
+BACTS,Bachelor of Actuarial Studies,NA,STAT1008,listed
+BACTS,Bachelor of Actuarial Studies,NA,STAT2013,listed
+BACTS,Bachelor of Actuarial Studies,NA,STAT2005,listed
+BACTS,Bachelor of Actuarial Studies,NA,STAT2014,listed
+BACTS,Bachelor of Actuarial Studies,NA,STAT2032,listed
+BACTS,Bachelor of Actuarial Studies,NA,STAT3032,listed
+BACTS,Bachelor of Actuarial Studies,NA,STAT3057,listed
+BACTS,Bachelor of Actuarial Studies,NA,STAT3058,listed
+BACTS,Bachelor of Actuarial Studies,NA,STAT3037,listed
+BACTS,Bachelor of Actuarial Studies,NA,STAT3038,listed
+BACTS,Bachelor of Actuarial Studies,NA,ECON1100,listed
+BACTS,Bachelor of Actuarial Studies,NA,ECON1102,listed
+BACTS,Bachelor of Actuarial Studies,NA,MATH1013,listed
+BACTS,Bachelor of Actuarial Studies,NA,MATH1115,listed
+BACTS,Bachelor of Actuarial Studies,NA,MATH1113,listed
+BACTS,Bachelor of Actuarial Studies,NA,List 1,listed
+BACTS,Bachelor of Actuarial Studies,NA,List 4,listed
+BACTS,Bachelor of Actuarial Studies,NA,MATH1113,listed
+BACTS,Bachelor of Actuarial Studies,NA,MATH1013,listed
+BACTS,Bachelor of Actuarial Studies,NA,MATH1014,listed
+BACTS,Bachelor of Actuarial Studies,NA,MATH1115,listed
+BACTS,Bachelor of Actuarial Studies,NA,MATH1116,listed
+BACTS,Bachelor of Actuarial Studies,NA,MATH1013,listed
+BACTS,Bachelor of Actuarial Studies,NA,MATH1014,listed
+BACTS,Bachelor of Actuarial Studies,NA,MATH1115,listed
+BACTS,Bachelor of Actuarial Studies,NA,MATH1116,listed
+BACTS,Bachelor of Actuarial Studies,NA,MATH1013,listed
+BACTS,Bachelor of Actuarial Studies,NA,MATH1014,listed
+BACTS,Bachelor of Actuarial Studies,NA,MATH1116,listed
+BACTS,Bachelor of Actuarial Studies,NA,ECON1101,listed
+BACTS,Bachelor of Actuarial Studies,NA,BUSN1001,listed
+BACTS,Bachelor of Actuarial Studies,NA,STAT1008,listed
+BACTS,Bachelor of Actuarial Studies,NA,major,listed
+BACTS,Bachelor of Actuarial Studies,NA,minor,listed
+BACTS,Bachelor of Actuarial Studies,NA,specialisation,listed

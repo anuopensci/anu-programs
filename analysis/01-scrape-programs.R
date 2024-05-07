@@ -18,6 +18,13 @@ title
 
 html_page |> 
   html_element("#study") |> 
+  html_elements("p") |> 
+  html_elements("a") |> 
+  html_text()
+
+
+html_page |> 
+  html_element("#study") |> 
   html_elements(".ql-indent-1") |> 
   html_elements("a") |> 
   html_text()

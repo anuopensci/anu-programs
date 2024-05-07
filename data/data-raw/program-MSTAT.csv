@@ -1,25 +1,80 @@
-program_code,program_name,year,course_code
-MSTAT,Master of Statistics,Year 1,STAT6038
-MSTAT,Master of Statistics,Year 1,STAT6039
-MSTAT,Master of Statistics,Year 1,STAT6030
-MSTAT,Master of Statistics,Year 1,STAT6026
-MSTAT,Master of Statistics,Year 1,STAT6016
-MSTAT,Master of Statistics,Year 1,STAT7004
-MSTAT,Master of Statistics,Year 2,STAT6040
-MSTAT,Master of Statistics,Year 2,STAT6027
-MSTAT,Master of Statistics,Year 2,STAT7018
-MSTAT,Master of Statistics,Year 2,STAT7029
-MSTAT,Master of Statistics,Year 2,STAT7042
-MSTAT,Master of Statistics,Year 2,STAT8002
-MSTAT,Master of Statistics,Year 2,STAT7018
-MSTAT,Master of Statistics,Year 2,STAT7029
-MSTAT,Master of Statistics,Year 2,STAT7042
-MSTAT,Master of Statistics,Year 2,STAT8002
-MSTAT,Master of Statistics,Year 2,STAT7006
-MSTAT,Master of Statistics,Year 2,STAT7017
-MSTAT,Master of Statistics,Year 2,STAT7050
-MSTAT,Master of Statistics,Year 2,STAT8056
-MSTAT,Master of Statistics,Year 2,STAT7006
-MSTAT,Master of Statistics,Year 2,STAT7017
-MSTAT,Master of Statistics,Year 2,STAT7050
-MSTAT,Master of Statistics,Year 2,STAT8056
+program_code,program_name,year,course_code,type
+MSTAT,Master of Statistics,Year 1,STAT6038,studytable
+MSTAT,Master of Statistics,Year 1,STAT6039,studytable
+MSTAT,Master of Statistics,Year 1,STAT6030,studytable
+MSTAT,Master of Statistics,Year 1,STAT6026,studytable
+MSTAT,Master of Statistics,Year 1,STAT6016,studytable
+MSTAT,Master of Statistics,Year 1,STAT7004,studytable
+MSTAT,Master of Statistics,Year 2,STAT6040,studytable
+MSTAT,Master of Statistics,Year 2,STAT6027,studytable
+MSTAT,Master of Statistics,Year 2,STAT7018,studytable
+MSTAT,Master of Statistics,Year 2,STAT7029,studytable
+MSTAT,Master of Statistics,Year 2,STAT7042,studytable
+MSTAT,Master of Statistics,Year 2,STAT8002,studytable
+MSTAT,Master of Statistics,Year 2,STAT7018,studytable
+MSTAT,Master of Statistics,Year 2,STAT7029,studytable
+MSTAT,Master of Statistics,Year 2,STAT7042,studytable
+MSTAT,Master of Statistics,Year 2,STAT8002,studytable
+MSTAT,Master of Statistics,Year 2,STAT7006,studytable
+MSTAT,Master of Statistics,Year 2,STAT7017,studytable
+MSTAT,Master of Statistics,Year 2,STAT7050,studytable
+MSTAT,Master of Statistics,Year 2,STAT8056,studytable
+MSTAT,Master of Statistics,Year 2,STAT7006,studytable
+MSTAT,Master of Statistics,Year 2,STAT7017,studytable
+MSTAT,Master of Statistics,Year 2,STAT7050,studytable
+MSTAT,Master of Statistics,Year 2,STAT8056,studytable
+MSTAT,Master of Statistics,NA,STAT6016,listed
+MSTAT,Master of Statistics,NA,STAT6026,listed
+MSTAT,Master of Statistics,NA,STAT6027,listed
+MSTAT,Master of Statistics,NA,STAT7004,listed
+MSTAT,Master of Statistics,NA,STAT7038,listed
+MSTAT,Master of Statistics,NA,STAT7039,listed
+MSTAT,Master of Statistics,NA,STAT8130,listed
+MSTAT,Master of Statistics,NA,STAT8140,listed
+MSTAT,Master of Statistics,NA,STAT6017,listed
+MSTAT,Master of Statistics,NA,STAT6018,listed
+MSTAT,Master of Statistics,NA,STAT6029,listed
+MSTAT,Master of Statistics,NA,STAT6042,listed
+MSTAT,Master of Statistics,NA,STAT6050,listed
+MSTAT,Master of Statistics,NA,STAT6056,listed
+MSTAT,Master of Statistics,NA,STAT6060,listed
+MSTAT,Master of Statistics,NA,STAT8002,listed
+MSTAT,Master of Statistics,NA,CBEA6070,listed
+MSTAT,Master of Statistics,NA,COMP6240,listed
+MSTAT,Master of Statistics,NA,COMP6261,listed
+MSTAT,Master of Statistics,NA,COMP6420,listed
+MSTAT,Master of Statistics,NA,COMP6490,listed
+MSTAT,Master of Statistics,NA,COMP6670,listed
+MSTAT,Master of Statistics,NA,COMP6710,listed
+MSTAT,Master of Statistics,NA,COMP6730,listed
+MSTAT,Master of Statistics,NA,COMP8410,listed
+MSTAT,Master of Statistics,NA,COMP8420,listed
+MSTAT,Master of Statistics,NA,COMP8430,listed
+MSTAT,Master of Statistics,NA,COMP8600,listed
+MSTAT,Master of Statistics,NA,COMP8880,listed
+MSTAT,Master of Statistics,NA,ECON6012,listed
+MSTAT,Master of Statistics,NA,EMET8001,listed
+MSTAT,Master of Statistics,NA,EMET8005,listed
+MSTAT,Master of Statistics,NA,EMET8008,listed
+MSTAT,Master of Statistics,NA,EMET8012,listed
+MSTAT,Master of Statistics,NA,EMET8014,listed
+MSTAT,Master of Statistics,NA,MATH6005,listed
+MSTAT,Master of Statistics,NA,MATH6100,listed
+MSTAT,Master of Statistics,NA,MATH6102,listed
+MSTAT,Master of Statistics,NA,MATH6109,listed
+MSTAT,Master of Statistics,NA,MATH6110,listed
+MSTAT,Master of Statistics,NA,MATH6111,listed
+MSTAT,Master of Statistics,NA,MATH6112,listed
+MSTAT,Master of Statistics,NA,MATH6115,listed
+MSTAT,Master of Statistics,NA,MATH6119,listed
+MSTAT,Master of Statistics,NA,MATH6208,listed
+MSTAT,Master of Statistics,NA,MATH6212,listed
+MSTAT,Master of Statistics,NA,POPH8100,listed
+MSTAT,Master of Statistics,NA,POPH8101,listed
+MSTAT,Master of Statistics,NA,POPH8313,listed
+MSTAT,Master of Statistics,NA,STAT6043,listed
+MSTAT,Master of Statistics,NA,STAT6046,listed
+MSTAT,Master of Statistics,NA,STAT6057,listed
+MSTAT,Master of Statistics,NA,STAT6058,listed
+MSTAT,Master of Statistics,NA,STAT8053,listed
+MSTAT,Master of Statistics,NA,STAT8500,listed
