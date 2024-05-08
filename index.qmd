@@ -71,7 +71,18 @@ plot_network(madan_courses, madan_required)
 
 ## [Bachelor of Applied Data Analytics](https://programsandcourses.anu.edu.au/program/BADAN)
 
+```{r}
+program_study_table("BADAN") 
+```
 
 ## [Bachelor of Finance, Economics and Statistics (Honours)](https://programsandcourses.anu.edu.au/program/AFEST)
 
+```{r}
+program_study_table("AFEST") 
+```
+
 ## [Bachelor of Statistics](https://programsandcourses.anu.edu.au/program/BSTAT)
+
+```{r}
+program_study_table("BSTAT") 
+```
